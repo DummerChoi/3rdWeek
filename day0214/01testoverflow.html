@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 01testoverflow.html </title>
+<style>
+    *{font-size: 14pt;}
+
+    div{
+        width: 200px;
+        height: 150px;
+        padding: 10px;
+        margin: 30px;
+        border: 1px solid gray;
+        float: left;
+    }
+
+    .myauto{ overflow: auto; }
+    .myhidden{ overflow: hidden; }
+    .myscroll{ overflow: scroll;} 
+    .myvisible{ overflow: visible; }
+</style>
+</head>
+<body>
+    <h2> 01testoverflow.html 11시52분 </h2>
+
+    <div class="myauto">
+        <b>auto</b><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    </div>
+
+    <p></p>
+    <div class="myhidden">
+        <b>hidden</b><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    </div>
+
+    <p></p>
+    <div class="myscroll">
+        <b>scroll</b><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    </div>
+
+    <p></p>
+    <div class="myvisible">
+        <b>visible</b><br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+    </div>
+</body>
+</html>

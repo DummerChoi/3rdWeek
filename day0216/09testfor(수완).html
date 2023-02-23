@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 06testfor.html</title>
+    <style>
+        *{font-size: 20pt;}
+    </style>
+    <script>
+        function mytest(){   // 1 2 3 4 5 합계=15
+         var su=0 ;
+        var sum=0;
+            for(count=1; count<6; count=count+1){
+                su = su+1 ;
+                sum = sum+count
+                document.write(su, ' ');
+         }
+         document.write('합계= ',sum);
+        }//end
+</script>
+</head>
+<body>
+    <div id="display">
+        <img src="./images/mainogu1.png" alt="">
+    </div>
+    <h2>06testfor.html</h2>
+    <button onclick="mytest()">숫자출력</button>
+</body>
+</html>
